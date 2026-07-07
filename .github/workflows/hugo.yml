@@ -32,11 +32,10 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      # Giải pháp an toàn: Sử dụng Action chuẩn để cài đặt Hugo, tránh hoàn toàn lỗi 404 của wget
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.65.3'
+          hugo-version: '0.134.3'
           extended: true
 
       - name: Build with Hugo
@@ -45,9 +44,9 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: |
           hugo \
-            --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+            --config config.toml,config.production.toml
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
