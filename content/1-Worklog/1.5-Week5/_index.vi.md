@@ -1,59 +1,34 @@
 ---
 title: "Worklog Tuần 5"
-date: 2024-01-01
+date: 2026-05-18
 weight: 1
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-
 ### Mục tiêu tuần 5:
-
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
-
+* Nghiên cứu kiến trúc phi máy chủ  và cách triển khai các hàm xử lý mã nguồn độc lập bằng Lambda cùng hệ thống kích hoạt .
+* Tìm hiểu và cấu hình cổng kết nối API Gateway để tiếp nhận, điều hướng các yêu cầu HTTP/HTTPS.
+* Nghiên cứu cơ sở dữ liệu NoSQL DynamoDB và các thao tác quản lý dữ liệu tối ưu.
+* **Hands-on:** Xây dựng hoàn chỉnh hệ thống quản lý dữ liệu thông qua ứng dụng REST API backend phi máy chủ.
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Tìm hiểu khái niệm Serverless và mô hình kiến trúc Event-driven.<br> - Nghiên cứu dịch vụ AWS Lambda: vòng đời của hàm, cấu hình bộ nhớ và cách liên kết các Triggers tự động. | 18/05/2026   | 18/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Nghiên cứu Amazon API Gateway: thiết kế các HTTP/REST endpoints, phương thức định tuyến (GET, POST, PUT, DELETE) và tích hợp trực tiếp với AWS Lambda. | 19/05/2026   | 19/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Tìm hiểu Amazon DynamoDB: mô hình dữ liệu NoSQL, cách chọn Partition Key (PK) và Sort Key (SK).<br> - Nghiên cứu các phương thức thao tác dữ liệu: Query, Scan, PutItem, UpdateItem. | 20/05/2026   | 20/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Thiết kế sơ đồ luồng dữ liệu cho ứng dụng Backend xử lý các tác vụ CRUD (Create, Read, Update, Delete).<br> - Chuẩn bị môi trường viết mã nguồn xử lý cho các hàm Lambda bằng JavaScript/Node.js. | 21/05/2026   | 21/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - **Thực hành (Hands-on):** Triển khai ứng dụng REST API backend hoàn chỉnh kết hợp API Gateway, AWS Lambda và cơ sở dữ liệu DynamoDB.<br> - Kiểm thử các API bằng Postman thành công. | 22/05/2026   | 22/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 5:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Làm chủ tư duy phát triển Serverless:
+  * Hiểu rõ ưu điểm của mô hình Serverless: tự động mở rộng theo lượng truy cập, tối ưu chi phí (chỉ trả tiền khi mã nguồn chạy) và giảm bớt gánh nặng quản lý máy chủ.
+  * Thành thạo cách cấu hình biến môi trường, phân quyền IAM Role an toàn cho phép hàm Lambda có quyền đọc/ghi dữ liệu vào DynamoDB.
+* Xây dựng và tích hợp API chuẩn công nghiệp:
+  * Nắm vững cách thiết lập API Gateway để tiếp nhận dữ liệu từ Client, xử lý CORS (Cross-Origin Resource Sharing) và chuyển tiếp payload một cách chính xác đến backend.
+  * Hiểu sự khác biệt về hiệu năng và chi phí giữa hai phương thức đọc dữ liệu Query (tối ưu) và Scan (tốn tài nguyên) trong DynamoDB.
+* Kết quả thực hành Hands-on:
+  * Xây dựng độc lập hệ thống REST API backend phi máy chủ hoàn chỉnh đạt độ ổn định cao.
+  * Ứng dụng thực hiện mượt mà chuỗi tác vụ: Client gửi yêu cầu thông qua API Gateway. Kích hoạt AWS Lambda xử lý logic Truy vấn hoặc lưu trữ dữ liệu trực tiếp vào các bảng Amazon DynamoDB một cách an toàn. 
 
 

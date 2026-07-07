@@ -1,57 +1,32 @@
 ---
 title: "Week 6 Worklog"
-date: 2024-01-01
+date: 2026-05-25
 weight: 1
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
-
 ### Week 6 Objectives:
-
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
-
+* Study application integration patterns and message distribution services, focusing on Amazon SQS queues and Amazon SNS pub/sub models.
+* Learn serverless event routing mechanisms and event bus configurations with Amazon EventBridge.
+* Explore advanced workflow orchestration and design state management models using AWS Step Functions.
+* **Hands-on:** Build and validate a decoupled, robust Event-driven architecture.
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Research microservices integration concepts and enterprise asynchronous messaging structures.<br> - Study message queues using Amazon SQS and pub/sub patterns via Amazon SNS. | 05/25/2026   | 05/25/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Investigate Amazon EventBridge structures: setting up custom event buses and writing routing Rules to track system resource mutations. | 05/26/2026   | 05/26/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Explore AWS Step Functions orchestration blueprints: designing structural Workflows via visual State Machines and handling logic branches. | 05/27/2026   | 05/27/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Design loose-coupling patterns: creating fan-out pipelines binding SNS Topics to automated SQS Queues while enforcing secure cross-service access parameters. | 05/28/2026   | 05/28/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - **Hands-on Practice:** Coordinate and deploy a full serverless Event-driven architecture pattern.<br> - Simulate event triggers, monitor branching logic inside Step Functions, and verify real-time SNS email notifications. | 05/29/2026   | 05/29/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Week 6 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Mastered Event-Driven Structural Concepts:
+  * Acquired solid insights into Loose Coupling application models, ensuring components function independently to bolster system fault tolerance and reduce processing bottlenecks.
+  * Successfully architected a Fan-out messaging pattern by binding Amazon SNS alerts straight into concurrent Amazon SQS queues for parallel data consumption.
+* Orchestrated Sophisticated Enterprise Workflows:
+  * Proficiently applied Amazon EventBridge filters to listen to specific infrastructure alerts and accurately dispatch payload signals to background operational workers.
+  * Utilized Amazon States Language (ASL) syntax within AWS Step Functions to build deterministic retry boundaries, coordinate logic branches, and maintain execution state transparency.
+* Hands-on Engineering Accomplishments:
+  * Independently built and stabilized a decoupled Event-driven infrastructure system.
+  * Demonstrated flawless message routing telemetry: upstream lifecycle state triggers  EventBridge intercepts and forwards payloads Step Functions orchestrates conditional state execution pipelines Amazon SNS pushes immediate system alerts to administrator endpoints.

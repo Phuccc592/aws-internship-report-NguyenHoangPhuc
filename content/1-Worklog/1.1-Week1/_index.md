@@ -1,57 +1,41 @@
 ---
 title: "Week 1 Worklog"
-date: 2024-01-01
+date: 2026-04-17
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 1 Objectives:
 
 * Connect and get acquainted with members of First Cloud Journey.
 * Understand basic AWS services, how to use the console & CLI.
+* Successfully deploy a simple web server on the Cloud platform.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks carried out this week:
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| :--- | :--- | :--- | :--- | :--- |
+| **6** | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations | 04/17/2026 | 04/17/2026 | FCJ Portal |
+| **2** | - Learn about AWS and core service groups: <br>&emsp; + Compute (EC2, Lambda) <br>&emsp; + Storage (S3, EBS) <br>&emsp; + Networking (VPC, Route53) <br>&emsp; + Database (RDS, DynamoDB) | 04/20/2026 | 04/20/2026 | [AWS Workshop](https://cloudjourney.awsstudygroup.com/) |
+| **3** | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** Install & configure AWS CLI | 04/21/2026 | 04/21/2026 | [AWS Documentation](https://docs.aws.amazon.com/) |
+| **4** | - Learn basic EC2: <br>&emsp; + Instance types, AMI, EBS <br>&emsp; + Security Groups & Key Pairs <br> - SSH connection methods to EC2 | 04/22/2026 | 04/23/2026 | [AWS Workshop](https://cloudjourney.awsstudygroup.com/) |
+| **6** | - **Practice:** <br>&emsp; + Launch an EC2 instance & connect via SSH <br>&emsp; + Attach an EBS volume <br>&emsp; + Install & configure Apache Web Server | 04/24/2026 | 04/24/2026 | [AWS Workshop](https://cloudjourney.awsstudygroup.com/) |
 
 ### Week 1 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
+#### 1. Knowledge and Tools
+* Mastered the basic AWS service groups: Compute, Storage, Networking, and Database.
 * Successfully created and configured an AWS Free Tier account.
+* Installed and configured AWS CLI (Access Key, Secret Key) on the local machine.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+#### 2. AWS EC2 Practice
+* Launched the WebServer instance running Amazon Linux 2023 successfully.
+* Configured Security Groups to allow traffic on port 80 (HTTP) and port 22 (SSH).
+* Used key Pair (Phuc-Key) for secure system authentication.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+#### 3. Web Server Deployment
+* Installed and activated Apache Web Server (httpd) on the EC2 instance.
+* Personalized the website to display: "Nguyen Hoang Phuc - AWS Web Server Live!" at Public IP: `100.53.10.33`.
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+![Web Server Success](/images/WebServer.png)

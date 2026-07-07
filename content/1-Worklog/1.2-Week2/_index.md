@@ -1,14 +1,10 @@
 ---
 title: "Week 2 Worklog"
-date: 2024-01-01
+date: 2026-04-27
 weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 2 Objectives:
 
@@ -18,40 +14,25 @@ pre: " <b> 1.2. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Research Amazon S3 buckets <br> - Learn how to configure and set up storage lifecycle policies on S3 | 04/27/2026 | 04/27/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Study Amazon EBS block storage service <br> - Analyze EBS volume management and data backup mechanisms using Snapshots | 04/28/2026 | 04/28/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Learn about the Amazon RDS relational database service <br> - Study the process of initialization, configuration setup, and database administration (RDS setup and management) | 04/29/2026 | 04/29/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - **Practice (Hands-on):** Initialize secure S3 storage components and configure access permissions <br> - Design and develop a file upload system to the cloud (Build file upload system) | 04/30/2026 | 05/01/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - **Practice (Hands-on):** Initialize and link an Amazon RDS database instance <br> - Finalize application source code, establishing synchronous connection between the file storage layer and the database layer | 05/01/2026 | 05/02/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Week 2 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Mastered the foundational knowledge and architectural workflow of core service groups:
+  * **Amazon S3:** Object storage concepts, managing access permissions, and optimizing long-term storage costs using automated S3 Lifecycle rules.
+  * **Amazon EBS:** Block storage attached to Amazon EC2 virtual servers, modifying volume capacity dynamically, and creating secure data backups using Snapshots.
+  * **Amazon RDS:** Managing cloud-based relational database instances that automate routine tasks such as patching, backups, and horizontal scaling.
 
-* Successfully created and configured an AWS Free Tier account.
+* Successfully performed hands-on configuration of secure Amazon S3 buckets and implemented lifecycle transition rules (such as moving objects from S3 Standard to Glacier or setting up automatic expiration policies for temporary files).
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Gained practical experience in cloud block storage administration, including creating new EBS volumes, attaching them to a running Linux server, and executing system commands to mount the partitions.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Successfully deployed an Amazon RDS instance (MySQL/SQL Server) and mastered Security Group configurations to authorize secure incoming traffic from internal VPC subnets.
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
+* **Completed the Hands-on Project:** Developed and deployed a functioning file upload application that stores media assets securely in an Amazon S3 bucket while tracking and indexing file metadata inside an Amazon RDS instance.
 * ...
