@@ -63,7 +63,5 @@ Event Link: https://luma.com/ubaur0y5
 
 ### Event Gallery
 
-<div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-top: 20px;">
-  <img src="/images/4-Event/Event1-speaker1.jpg" alt="AWS Event 1 - Pic 1" style="max-width: 45%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
-  <img src="/images/4-Event/Event1-speaker2.jpg" alt="AWS Event 1 - Pic 2" style="max-width: 45%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
-</div>
+![AWS Event 1 - Pic 1](/images/4-Event/Event1-speaker1.jpg)
+![AWS Event 1 - Pic 2](/images/4-Event/Event1-speaker2.jpg)
