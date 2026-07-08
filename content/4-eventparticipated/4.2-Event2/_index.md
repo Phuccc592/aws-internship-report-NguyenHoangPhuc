@@ -74,7 +74,7 @@ Event Link: https://luma.com/s1ymc95q
 ### Event Gallery
 
 <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-top: 20px;">
-  <img src="../../../images/4-Event/Event2-speaker1.jpg" alt="AWS Event 2 - Pic 1" style="max-width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
-  <img src="../../../images/4-Event/Event2-speaker2.jpg" alt="AWS Event 2 - Pic 2" style="max-width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
-  <img src="../../../images/4-Event/Event2-speaker3.jpg" alt="AWS Event 2 - Pic 3" style="max-width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
+  <img src="/images/4-Event/Event2-speaker1.jpg" alt="AWS Event 2 - Pic 1" style="max-width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
+  <img src="/images/4-Event/Event2-speaker2.jpg" alt="AWS Event 2 - Pic 2" style="max-width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
+  <img src="/images/4-Event/Event2-speaker3.jpg" alt="AWS Event 2 - Pic 3" style="max-width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
 </div>
