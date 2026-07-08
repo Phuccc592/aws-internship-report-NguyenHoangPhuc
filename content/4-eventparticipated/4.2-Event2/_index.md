@@ -70,3 +70,11 @@ Event Link: https://luma.com/s1ymc95q
 - **Agentic AI** is no longer just a theoretical trend — it addresses real, tangible pain points within live cloud operations.
 - Security frameworks (VPC, MCP) must be designed into the initial architecture skeleton from day one, rather than patched on after deployment.
 - Scaling enterprise AI requires a fine balance between maximizing automated workflows and maintaining strict human compliance and oversight.
+
+### Event Gallery
+
+<div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-top: 20px;">
+  <img src="../../../images/4-Event/Event2-speaker1.jpg" alt="AWS Event 2 - Pic 1" style="max-width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
+  <img src="../../../images/4-Event/Event2-speaker2.jpg" alt="AWS Event 2 - Pic 2" style="max-width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
+  <img src="../../../images/4-Event/Event2-speaker3.jpg" alt="AWS Event 2 - Pic 3" style="max-width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
+</div>
