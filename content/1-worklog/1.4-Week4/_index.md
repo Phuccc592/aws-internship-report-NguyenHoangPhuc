@@ -15,9 +15,9 @@ pre: " <b> 1.4. </b> "
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
 | 2   | - Research foundational theoretical frameworks governing AWS IAM.<br> - Differentiate core components: IAM Users, IAM Groups, and IAM Roles. | 05/11/2026   | 05/11/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 3   | - Analyze JSON-based IAM Policy structures (Effect, Action, Resource, Condition elements).<br> - Apply the Principle of Least Privilege to authorization models. | 05/12/2026   | 05/12/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Study security risks concerning root account management and administrative infrastructure access.<br> - Learn standard operational flows for MFA setup. | 05/13/2026   | 05/13/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Prepare an isolation blueprint case-study: drafting custom access parameters across separated EC2 nodes and specific storage S3 buckets. | 05/14/2026   | 05/14/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Hands-on Practice:** Build and initialize a functional Secure multi-user environment.<br> - Establish Dev/Test groups, enforce scoped permission policies, and mandate active MFA. | 05/15/2026   | 05/15/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Study security risks concerning root account management and administrative infrastructure access. | 05/13/2026   | 05/13/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Assessed administrative root account governance and configured Multi-Factor Authentication (MFA). | 05/14/2026   | 05/14/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Authored real-world enterprise authorization matrices for EC2 and S3 resources across internal engineering teams. | 05/15/2026   | 05/15/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Week 4 Achievements:

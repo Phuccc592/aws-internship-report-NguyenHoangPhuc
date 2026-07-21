@@ -17,7 +17,7 @@ pre: " <b> 1.5. </b> "
 | 3   | - Nghiên cứu Amazon API Gateway: thiết kế các HTTP/REST endpoints, phương thức định tuyến (GET, POST, PUT, DELETE) và tích hợp trực tiếp với AWS Lambda. | 19/05/2026   | 19/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 4   | - Tìm hiểu Amazon DynamoDB: mô hình dữ liệu NoSQL, cách chọn Partition Key (PK) và Sort Key (SK).<br> - Nghiên cứu các phương thức thao tác dữ liệu: Query, Scan, PutItem, UpdateItem. | 20/05/2026   | 20/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 5   | - Thiết kế sơ đồ luồng dữ liệu cho ứng dụng Backend xử lý các tác vụ CRUD (Create, Read, Update, Delete).<br> - Chuẩn bị môi trường viết mã nguồn xử lý cho các hàm Lambda bằng JavaScript/Node.js. | 21/05/2026   | 21/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành (Hands-on):** Triển khai ứng dụng REST API backend hoàn chỉnh kết hợp API Gateway, AWS Lambda và cơ sở dữ liệu DynamoDB.<br> - Kiểm thử các API bằng Postman thành công. | 22/05/2026   | 23/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Chuẩn bị môi trường và viết mã nguồn xử lý cho Lambda bằng Node.js.<br>- Tích hợp API Gateway + Lambda + DynamoDB hoàn chỉnh. | 22/05/2026   | 23/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 5:

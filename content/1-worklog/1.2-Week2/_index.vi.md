@@ -17,8 +17,8 @@ pre: " <b> 1.2. </b> "
 | 2   | - Nghiên cứu về Amazon S3 buckets <br> Tìm hiểu cấu hình và thiết lập chính sách vòng đời dữ liệu (Lifecycle policies) trên S3 | 27/04/2026 | 27/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 3   | - Tìm hiểu dịch vụ lưu trữ khối Amazon EBS <br> - Phân tích cách thức quản lý EBS volumes và cơ chế sao lưu dữ liệu bằng Snapshot | 28/04/2026 | 28/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 4   | - Tìm hiểu dịch vụ cơ sở dữ liệu quan hệ Amazon RDS <br> - Nghiên cứu quy trình khởi tạo, thiết lập cấu hình và quản trị cơ sở dữ liệu (RDS setup and management) | 29/04/2026 | 29/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - **Thực hành (Hands-on):** Khởi tạo cấu phần lưu trữ S3 và kết nối phân quyền <br> - Thiết kế hệ thống tải tập tin lên đám mây (Build file upload system) | 30/04/2026 | 01/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành (Hands-on):** Khởi tạo và liên kết instance cơ sở dữ liệu RDS <br> - Hoàn thiện mã nguồn ứng dụng, kết nối đồng bộ giữa lớp lưu trữ file và lớp dữ liệu | 01/04/2026 | 02/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Thực hành khởi tạo cấu phần lưu trữ S3 và phân quyền truy cập an toàn. | 30/04/2026 | 01/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Thiết kế hoàn chỉnh hệ thống cho phép tải tập tin lên đám mây sử dụng Amazon S3. | 01/05/2026 | 02/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 2:

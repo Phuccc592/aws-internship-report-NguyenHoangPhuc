@@ -15,10 +15,10 @@ pre: " <b> 1.2. </b> "
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
 | 2   | - Research Amazon S3 buckets <br> - Learn how to configure and set up storage lifecycle policies on S3 | 04/27/2026 | 04/27/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3   | - Study Amazon EBS block storage service <br> - Analyze EBS volume management and data backup mechanisms using Snapshots | 04/28/2026 | 04/28/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Learn about the Amazon RDS relational database service <br> - Study the process of initialization, configuration setup, and database administration (RDS setup and management) | 04/29/2026 | 04/29/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - **Practice (Hands-on):** Initialize secure S3 storage components and configure access permissions <br> - Design and develop a file upload system to the cloud (Build file upload system) | 04/30/2026 | 05/01/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice (Hands-on):** Initialize and link an Amazon RDS database instance <br> - Finalize application source code, establishing synchronous connection between the file storage layer and the database layer | 05/01/2026 | 05/02/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Investigated Amazon EBS block storage, volume management strategies, and Snapshot backup mechanisms. | 04/28/2026 | 04/28/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | -- Studied Amazon RDS relational database engine, automated snapshot workflows, and management practices. | 04/29/2026 | 04/29/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Initialized S3 bucket storage structures and configured granular access policies. | 04/30/2026 | 05/01/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Designed and deployed an end-to-end cloud file upload system powered by Amazon S3. | 05/01/2026 | 05/02/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Week 2 Achievements:

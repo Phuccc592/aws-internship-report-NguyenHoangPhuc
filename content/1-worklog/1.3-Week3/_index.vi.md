@@ -17,8 +17,8 @@ pre: " <b> 1.3. </b> "
 | 2   | - Nghiên cứu sâu lý thuyết tổng quan về Amazon VPC. <br> - Học cách quy hoạch IP và phân tách phân vùng mạng: Public Subnet, Private Subnet, Internet gateway và Route Tables.                                                                                             | 04/05/2026   | 04/05/2026     |
 | 3   | - Phân tích, so sánh cơ chế hoạt động của tường lửa bảo mật tầng mạng                | 05/05/2026   | 05/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 4   | - Nghiên cứu hệ thống quản lý danh tính Quản lý Users, Groups, Policies nâng cao dựa trên nguyên tắc cấp quyền tối thiểu.<br> - Cấu hình IAM Roles đặc thù cho phép tài nguyên kết nối chéo dữ liệu bảo mật. | 06/05/2026   | 06/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu cơ chế chuyển đổi địa chỉ mạng để cấp quyền truy cập Internet một chiều ra ngoài cho các tài nguyên nằm trong vùng bảo mật Private Subnet.<br> - Tối ưu luồng dữ liệu an toàn mạng nội bộ.                  | 07/05/2026   | 07/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành (Hands-on):** Triển khai cấu trúc mô hình hạ tầng mạng đa tầng thực tế trên hệ sinh thái VPC.<br> - Cấu hình định tuyến giữa Web Server và Database Server                                                                                    | 08/05/2026   | 08/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Tìm hiểu cơ chế chuyển đổi địa chỉ mạng NAT Gateway để cấp quyền truy cập Internet một chiều ra ngoài cho các tài nguyên trong Private Subnet.               | 07/05/2026   | 07/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Tìm hiểu và triển khai cấu trúc mô hình hạ tầng mạng đa tầng thực tế trên VPC.<br>- Cấu hình định tuyến an toàn giữa Web Server với Database Server.                                                                                   | 08/05/2026   | 09/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 3:

@@ -15,9 +15,9 @@ pre: " <b> 1.3. </b> "
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
 | 2   | - Research theoretical concepts of Amazon VPC.<br> - Learn how to plan IP ranges and divide network subnets: Public Subnet, Private Subnet, Internet Gateway (IGW), and Route Tables. | 05/04/2026   | 05/04/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 3   | - Analyze and compare network-level firewalls.<br> - Design a network access control matrix. | 05/05/2026   | 05/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Study identity management with AWS IAM: Manage Users, Groups, and Advanced Policies based on the Principle of Least Privilege.<br> - Configure specific IAM Roles for secure cross-service connections. | 05/06/2026   | 05/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Study Network Address Translation to grant one-way outbound Internet access for resources in secure Private Subnets.<br> - Optimize internal network traffic routing. | 05/07/2026   | 05/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Hands-on Practice:** Deploy a practical **Multi-tier network architecture** within the Amazon VPC environment.<br> - Configure secure routing between the Web Server and Database Server. | 05/08/2026   | 05/08/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Explored AWS IAM identity frameworks (Users, Groups, Policies) enforcing the Principle of Least Privilege.<br>- Configured IAM Roles for cross-resource service permissions. | 05/06/2026   | 05/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Configured NAT Gateways to grant outbound internet connectivity for Private Subnet workloads while blocking inbound traffic. | 05/07/2026   | 05/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | Architected and deployed a production-grade multi-tier VPC network.<br>- Configured isolated routing between Web Application tier and Database tier. | 05/08/2026   | 05/08/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Week 3 Achievements:

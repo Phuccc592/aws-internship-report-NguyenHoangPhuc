@@ -15,8 +15,9 @@ home = ["HTML", "RSS", "JSON"]
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
+  ordersectionsby = "weight"
 
-# Cấu trúc phẳng (Flat) giúp Hugo nhận diện chính xác tính năng đa ngôn ngữ
+
 [languages.en]
 title = "Internship Report"
 weight = 1

@@ -16,9 +16,9 @@ pre: " <b> 1.4. </b> "
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
 | 2   | - Nghiên cứu lý thuyết nền tảng về AWS IAM.<br> - Phân biệt các khái niệm chính: IAM Users (Người dùng), IAM Groups (Nhóm người dùng), và IAM Roles (Vai trò hệ thống). | 11/05/2026   | 11/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 3   | - Học cấu trúc cú pháp của tệp IAM Policy (JSON bao gồm Effect, Action, Resource, Condition).<br> - Nghiên cứu nguyên tắc cấp quyền tối thiểu (Principle of Least Privilege). | 12/05/2026   | 12/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tìm hiểu tầm quan trọng của bảo mật tài khoản root và tài khoản quản trị.<br> - Nghiên cứu quy trình thiết lập xác thực hai lớp (MFA setup). | 13/05/2026   | 13/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Chuẩn bị kịch bản phân quyền cho một dự án thực tế: Phân tách quyền truy cập tài nguyên EC2 và S3 Bucket cho các phòng ban kỹ thuật khác nhau. | 14/05/2026   | 14/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành (Hands-on):** Tạo cấu trúc nhóm làm việc bảo mật .<br> -cấu hình Policy giới hạn quyền và kích hoạt MFA thành công. | 15/05/2026   | 15/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Nghiên cứu và áp dụng nguyên tắc cấp quyền tối thiểu (Least Privilege Principle). | 13/05/2026   | 13/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Tìm hiểu tầm quan trọng của việc bảo mật tài khoản root/quản trị và nghiên cứu quy trình thiết lập xác thực 2 lớp MFA. | 14/05/2026   | 14/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Chuẩn bị kịch bản phân quyền dự án thực tế, phân tách quyền truy cập tài nguyên EC2 và S3 Bucket cho các phòng ban kỹ thuật.<br> -cấu hình Policy giới hạn quyền và kích hoạt MFA thành công. | 15/05/2026   | 15/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 4:
