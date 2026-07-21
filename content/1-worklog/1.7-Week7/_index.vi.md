@@ -1,7 +1,7 @@
 ---
 title: "Worklog Tuần 7"
 date: 2026-06-01
-weight: 1
+weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
@@ -17,7 +17,7 @@ pre: " <b> 1.7. </b> "
 | 3   | - Nghiên cứu Amazon ECR container registry.<br> - Thực hành cấu hình AWS CLI, đăng nhập mật khẩu bảo mật và đẩy image từ máy local lên kho lưu trữ đám mây Amazon ECR. | 02/06/2026   | 02/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 4   | - Tìm hiểu kiến trúc điều phối của Amazon ECS clusters and services.<br> - Phân biệt cơ chế vận hành hạ tầng giữa AWS Fargate và Amazon EC2 instances. | 03/06/2026   | 03/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 5   | - Học cách định nghĩa cấu trúc tài nguyên Task Definitions trong ECS cấu hình CPU, RAM, liên kết Image URL từ ECR và thiết lập Port mapping.<br> - Thiết lập cấu hình mạng kết nối an toàn cho cụm ECS. | 04/06/2026   | 04/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành (Hands-on):** Khởi tạo mô hình dịch vụ Containerized web app hoàn chỉnh trên môi trường Amazon ECS sử dụng chế độ Fargate.<br> - Kiểm thử truy cập ứng dụng web thông qua địa chỉ Public IP/DNS thành công. | 05/06/2026   | 05/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - **Thực hành (Hands-on):** Khởi tạo mô hình dịch vụ Containerized web app hoàn chỉnh trên môi trường Amazon ECS sử dụng chế độ Fargate.<br> - Kiểm thử truy cập ứng dụng web thông qua địa chỉ Public IP/DNS thành công. | 05/06/2026   | 06/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 7:

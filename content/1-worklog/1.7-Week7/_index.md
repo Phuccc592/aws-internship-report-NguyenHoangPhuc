@@ -1,7 +1,7 @@
 ---
 title: "Week 7 Worklog"
 date: 2026-06-01
-weight: 1
+weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
@@ -17,7 +17,7 @@ pre: " <b> 1.7. </b> "
 | 3   | - Research secure storage mechanisms using ECR container registry.<br> - Practice remote CLI authentication and pushing tagged local image builds straight up to Amazon ECR repositories. | 06/02/2026   | 06/02/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 4   | - Deep dive into scalable cloud orchestration systems ECS clusters and services.<br> - Evaluate infrastructure provisioning trade-offs between serverless AWS Fargate and provisioned Amazon EC2 worker fleets. | 06/03/2026   | 06/03/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 5   | - Learn to draft robust ECS Task Definitions blueprint parameters allocating discrete vCPU/Memory limits, bounding remote ECR Image URLs, and opening port mappings. | 06/04/2026   | 06/04/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Hands-on Practice:** Build and initialize a functional Containerized web app production deployment on Amazon ECS backed by serverless AWS Fargate infrastructure.<br> - Verify operational public endpoint connections. | 06/05/2026   | 06/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - **Hands-on Practice:** Build and initialize a functional Containerized web app production deployment on Amazon ECS backed by serverless AWS Fargate infrastructure.<br> - Verify operational public endpoint connections. | 06/05/2026   | 06/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Week 7 Achievements:

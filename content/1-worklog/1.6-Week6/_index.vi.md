@@ -1,7 +1,7 @@
 ---
 title: "Worklog Tuần 6"
 date: 2026-05-25
-weight: 1
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
@@ -17,7 +17,7 @@ pre: " <b> 1.6. </b> "
 | 3   | - Nghiên cứu Amazon EventBridge: cách thiết lập các Event Buses, viết quy tắc định tuyến để tự động hóa phát hiện thay đổi trạng thái tài nguyên hệ thống. | 26/05/2026       | 26/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 4   | - Tìm hiểu AWS Step Functions: học cách thiết kế luồng công việc dưới dạng máy trạng thái trực quan, xử lý logic phân nhánh phức tạp. | 27/05/2026   | 27/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 5   | - Thiết kế kịch bản liên kết lỏng: Tạo liên kết SNS Topic đẩy dữ liệu tự động về SQS Queue, cấu hình quyền hạn cho các dịch vụ giao tiếp an toàn. | 28/05/2026   | 28/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành (Hands-on):** Xây dựng kiến trúc hướng sự kiện hoàn chỉnh.<br> - Chạy mô hình giả lập, kiểm tra luồng dữ liệu tự động kích hoạt Step Functions và SNS gửi email thông báo thành công. | 29/05/2026   | 29/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - **Thực hành (Hands-on):** Xây dựng kiến trúc hướng sự kiện hoàn chỉnh.<br> - Chạy mô hình giả lập, kiểm tra luồng dữ liệu tự động kích hoạt Step Functions và SNS gửi email thông báo thành công. | 29/05/2026   | 31/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Kết quả đạt được tuần 6:
 * Làm chủ tư duy kiến trúc hướng sự kiện (Event-driven):

@@ -1,7 +1,7 @@
 ---
 title: "Week 8 Worklog"
 date: 2026-06-08 
-weight: 1
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
@@ -17,7 +17,7 @@ pre: " <b> 1.8. </b> "
 | 3   | - Construct operational CloudWatch Alarms hooked to automated SNS notification pipelines triggered during spikes.<br> - Setup CloudWatch Logs stream agents. | 06/09/2026   | 06/09/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 4   | - Research AWS CloudTrail operations: intercepting multi-region API control-plane activities and routing tamper-proof audit trails into dedicated secure S3 buckets. | 06/10/2026   | 06/10/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 5   | - Explore AWS X-Ray distributed tracing blueprints: integrating application SDK interceptors to map multi-tier system request telemetry and identify latency bottlenecks. | 06/11/2026   | 06/11/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Hands-on Practice:** Coordinate and deploy a unified Comprehensive monitoring setup binding CloudWatch, CloudTrail, and X-Ray components.<br> - Simulate high load states, verify warning signals. | 06/12/2026   | 06/12/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - **Hands-on Practice:** Coordinate and deploy a unified Comprehensive monitoring setup binding CloudWatch, CloudTrail, and X-Ray components.<br> - Simulate high load states, verify warning signals. | 06/12/2026   | 06/14/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Week 8 Achievements:

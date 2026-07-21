@@ -1,7 +1,7 @@
 ---
 title: "Worklog Tuần 8"
 date: 2026-06-08
-weight: 1
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
@@ -17,7 +17,7 @@ pre: " <b> 1.8. </b> "
 | 3   | - Học cách tạo CloudWatch Alarms để gửi thông báo tự động qua SNS khi tài nguyên vượt ngưỡng.<br> - Cấu hình CloudWatch Logs thu thập nhật ký từ ứng dụng. | 09/06/2026   | 09/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 4   | - Nghiên cứu dịch vụ AWS CloudTrail: theo dõi và kiểm toán các hành động gọi API trong hệ thống, cấu hình lưu trữ log bảo mật vào S3 bucket. | 10/06/2026   | 10/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 5   | - Tìm hiểu AWS X-Ray distributed tracing: tích hợp SDK vào mã nguồn ứng dụng để vẽ bản đồ dịch vụ và phát hiện các điểm nghẽn cổ chai. | 11/06/2026   | 11/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành (Hands-on):** Xây dựng hệ thống giám sát toàn diện liên kết CloudWatch, CloudTrail và X-Ray.<br> - Giả lập tải cao, kiểm tra luồng phát tín hiệu cảnh báo thành công. | 12/06/2026   | 12/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - **Thực hành (Hands-on):** Xây dựng hệ thống giám sát toàn diện liên kết CloudWatch, CloudTrail và X-Ray.<br> - Giả lập tải cao, kiểm tra luồng phát tín hiệu cảnh báo thành công. | 12/06/2026   | 14/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 8:

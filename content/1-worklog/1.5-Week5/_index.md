@@ -1,7 +1,7 @@
 ---
 title: "Week 5 Worklog"
 date: 2026-05-18
-weight: 1
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
@@ -17,7 +17,7 @@ pre: " <b> 1.5. </b> "
 | 3   | - Research Amazon API Gateway infrastructure: designing stable REST resources, resource paths (GET, POST, PUT, DELETE), and setting up Proxy integrations with Lambda. | 05/19/2026   | 05/19/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 4   | - Explore Amazon DynamoDB schemas: defining proper Partition Keys (PK) and Sort Keys (SK).<br> - Analyze structural performance between Query, Scan, PutItem, and UpdateItem operations. | 05/20/2026   | 05/20/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 5   | - Draft backend data flow diagrams defining application logic parameters for handling structured CRUD pipelines.<br> - Prepare codebases using JavaScript/Node.js to power Lambda processes. | 05/21/2026   | 05/21/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Hands-on Practice:** Coordinate and build a full serverless REST API backend using API Gateway, AWS Lambda handlers, and DynamoDB storage.<br> - Verify operational endpoints using Postman. | 05/22/2026   | 05/22/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - **Hands-on Practice:** Coordinate and build a full serverless REST API backend using API Gateway, AWS Lambda handlers, and DynamoDB storage.<br> - Verify operational endpoints using Postman. | 05/22/2026   | 05/23/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Week 5 Achievements:
 * Mastered Serverless Development Principles:
