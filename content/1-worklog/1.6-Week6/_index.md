@@ -17,7 +17,7 @@ pre: " <b> 1.6. </b> "
 | 3   | - Investigate Amazon EventBridge structures: setting up custom event buses and writing routing Rules to track system resource mutations. | 05/26/2026   | 05/26/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 4   | - Explore AWS Step Functions orchestration blueprints: designing structural Workflows via visual State Machines and handling logic branches. | 05/27/2026   | 05/27/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 5   | - Design loose-coupling patterns: creating fan-out pipelines binding SNS Topics to automated SQS Queues while enforcing secure cross-service access parameters. | 05/28/2026   | 05/28/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Hands-on Practice:** Coordinate and deploy a full serverless Event-driven architecture pattern.<br> - Simulate event triggers, monitor branching logic inside Step Functions, and verify real-time SNS email notifications. | 05/31/2026   | 05/29/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - **Hands-on Practice:** Coordinate and deploy a full serverless Event-driven architecture pattern.<br> - Simulate event triggers, monitor branching logic inside Step Functions, and verify real-time SNS email notifications. | 05/29/2026   | 05/31/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Week 6 Achievements:
