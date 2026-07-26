@@ -36,10 +36,11 @@ The detailed log of specialized technology events I attended is structured as fo
 
 ### [Event 3](4.3-Event3/)
 &emsp;**Event Name:** AWS FCAJ - AGENTIC AI BUILD WEEK - Track 3  
-&emsp;**Date & Time:** 09:00 AM, July 27, 2026  
+&emsp;**Date & Time:** 09:00 AM, July 25, 2026  
 &emsp;**Location:** 26th & 36th Floors, Bitexco Financial Tower, 02 Hai Trieu Street, Ben Nghe Ward, District 1, Ho Chi Minh City  
 &emsp;**Role:** Attendee & Technical Q&A Participant  
 &emsp;**Description:**  An intensive hackathon and technical showcase focused on building real-world AI Agent applications. Highlights included 5 practical project demonstrations spanning conversational in-chat ordering (Zalo/WhatsApp), multi-agent corporate intelligence & strategy analytics, AI-native Cloud architecture & Terraform IaC generation, computer vision crowd management, and adaptive workflow engines for Anti-Money Laundering (AML) transaction monitoring.
+
 &emsp;**Key Takeaways & Value Gained:** 
 * **Multi-Agent Architecture Mastery:** Learned how to decompose complex tasks into specialized agents to prevent context overload and eliminate LLM hallucinations, replacing fragile single-prompt systems.
 * **Prompt & Context Engineering Expertise:** Recognized that context management, RAG pipeline design, and structured output formatting (JSON/YAML) form the core foundation for seamless backend integration in AI-native apps.

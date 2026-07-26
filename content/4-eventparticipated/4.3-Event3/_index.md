@@ -1,9 +1,9 @@
 ---
-title: "Event 2"
+title: "Event 3"
 date: 2026-07-25
 weight: 2
 chapter: false
-pre: " <b> 4.2. </b> "
+pre: " <b> 4.3. </b> "
 ---
 
 # Event Review: "FCAJ - AGENTIC AI BUILD WEEK"
@@ -86,8 +86,6 @@ Context accounts for 80% of AI output quality. System design extends beyond mode
 
 ### Event Gallery
 
-![AWS Event 2 - Pic 1](/images/4-Event/Event2-speaker1.jpg)
-![AWS Event 2 - Pic 2](/images/4-Event/Event2-speaker2.jpg)
-![AWS Event 2 - Pic 3](/images/4-Event/Event2-speaker3.jpg)
+
 ![AWS Event 3 - Pic 1](/images/4-Event/Event3-speaker1.jpg)
 ![AWS Event 3 - Pic 2](/images/4-Event/Event3-speaker2.jpg)
