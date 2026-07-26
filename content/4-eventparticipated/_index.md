@@ -27,6 +27,20 @@ The detailed log of specialized technology events I attended is structured as fo
 &emsp;**Location:** 26th & 36th Floors, Bitexco Financial Tower, 02 Hai Trieu Street, Ben Nghe Ward, District 1, Ho Chi Minh City  
 &emsp;**Role:** Attendee & Technical Q&A Participant  
 &emsp;**Description:** A cutting-edge meetup deep-diving into two explosive domains: Mobile Voice AI and Agentic DevOps Operations. Highlights included a live demo of an automated banking Voice Agent utilizing a cascading 3-tier structure (STT -> LLM -> TTS) to successfully parse localized dialects, a live simulation of an automated DevOps AI Agent executing incident troubleshooting under a 1,000 req/sec DDoS attack, and an architectural guide to securing Model Context Protocol (MCP) servers via end-to-end isolated networks like VPC Interface Endpoints and Private ALBs.  
-&emsp;**Key Takeaways & Value Gained:** * **Advanced Infrastructure Competency:** Experienced the complex overhead parameters of moving autonomous agents to high-availability production environments, balancing LLM non-determinism, stateful token budgets, and repeatable deployments via Terraform IaC.  
+&emsp;**Key Takeaways & Value Gained:** 
+* **Advanced Infrastructure Competency:** Experienced the complex overhead parameters of moving autonomous agents to high-availability production environments, balancing LLM non-determinism, stateful token budgets, and repeatable deployments via Terraform IaC.  
 * **Critical Solution Architecture Reasoning:** Actively engaged in technical panel debates regarding the optimization of inbound/outbound data transfer charges when agents call third-party external environments, refining my analytical architecture skills.  
 * **Compliance & Industry Standard Realization:** Solidified the "Human-in-the-loop" absolute rule where AI proposes and humans validate, providing a great blueprint to fine-tune my own portfolio to seamlessly pass automated corporate resume screenings.
+
+---
+
+### [Event 3](4.3-Event3/)
+&emsp;**Event Name:** AWS FCAJ - AGENTIC AI BUILD WEEK - Track 3  
+&emsp;**Date & Time:** 09:00 AM, July 27, 2026  
+&emsp;**Location:** 26th & 36th Floors, Bitexco Financial Tower, 02 Hai Trieu Street, Ben Nghe Ward, District 1, Ho Chi Minh City  
+&emsp;**Role:** Attendee & Technical Q&A Participant  
+&emsp;**Description:**  An intensive hackathon and technical showcase focused on building real-world AI Agent applications. Highlights included 5 practical project demonstrations spanning conversational in-chat ordering (Zalo/WhatsApp), multi-agent corporate intelligence & strategy analytics, AI-native Cloud architecture & Terraform IaC generation, computer vision crowd management, and adaptive workflow engines for Anti-Money Laundering (AML) transaction monitoring.
+&emsp;**Key Takeaways & Value Gained:** 
+* **Multi-Agent Architecture Mastery:** Learned how to decompose complex tasks into specialized agents to prevent context overload and eliminate LLM hallucinations, replacing fragile single-prompt systems.
+* **Prompt & Context Engineering Expertise:** Recognized that context management, RAG pipeline design, and structured output formatting (JSON/YAML) form the core foundation for seamless backend integration in AI-native apps.
+* **Human-in-the-Loop & Traceability Realization:** Reinforced the critical need for auditability and human validation in high-risk domains (AML & fintech), aligning directly with modern Enterprise Cloud and DevOps best practices. 
